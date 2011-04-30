@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+	<head>
+		<title>Newsfeeds exported from Opera Mail/11.10 (Linux)</title>
+	</head>
+	<body>
+		<outline text="Allegro" title="Allegro" >
+			<outline text="Allegro.pl: w375" title="Allegro.pl: w375" type="rss" xmlUrl="http://allegro.pl/rss.php?buy=0&amp;category=19298&amp;clear_cookie=0&amp;description=1&amp;distance=1&amp;from_showcat=1&amp;listing=0&amp;listing_sel=2&amp;listing_interval=7&amp;postcode_enabled=0&amp;state=12&amp;city=&amp;order=t&amp;postcode=&amp;price_from=&amp;price_to=&amp;string=w375&amp;view=gtext&amp;change_view=Poka%C5%BC&amp;feed=search" />
+			<outline text="Allegro.pl: radeon hd" title="Allegro.pl: radeon hd" type="rss" xmlUrl="http://allegro.pl/rss.php?feed=search&amp;a_text_i%5B7074%5D%5B0%5D=512&amp;a_text_i%5B7074%5D%5B1%5D=&amp;buy=0&amp;category=4327&amp;clear_cookie=0&amp;distance=1&amp;from_showcat=1&amp;listing=0&amp;listing_sel=2&amp;listing_interval=7&amp;postcode_enabled=0&amp;state=0&amp;city=&amp;description=1&amp;order=t&amp;postcode=&amp;price_from=&amp;price_to=&amp;string=radeon+hd&amp;view=gtext" />
+		</outline>
+		<outline text="Bash" title="Bash" >
+			<outline text="bash.org.pl" title="bash.org.pl" type="rss" xmlUrl="http://bash.org.pl/rss/" />
+			<outline text="kretyn.com: cytaty" title="kretyn.com: cytaty" type="rss" xmlUrl="http://feedproxy.google.com/kretyn/cytaty?format=xml" />
+			<outline text="Roflcopter.pl - najnowsze" title="Roflcopter.pl - najnowsze" type="rss" xmlUrl="http://feeds2.feedburner.com/Roflcopter?format=xml" />
+		</outline>
+		<outline text="Webkomix" title="Webkomix" >
+			<outline text="boli blog" title="boli blog" type="rss" xmlUrl="http://boli.blog.pl/index.rss" />
+			<outline text="The Movie" title="The Movie" type="rss" xmlUrl="http://nowas.nazwa.pl/belewicz/?feed=rss2" />
+			<outline text="Hell Hotel" title="Hell Hotel" type="rss" xmlUrl="http://feeds.feedburner.com/HellHotel_pl" />
+			<outline text="cartoonwarsblog" title="cartoonwarsblog" type="rss" xmlUrl="http://cartoonwarsblog.blogspot.com/feeds/posts/default" />
+			<outline text="School Bites" title="School Bites" type="rss" xmlUrl="http://www.schoolbites.net/comic.rss" />
+			<outline text="Eerie Cuties" title="Eerie Cuties" type="rss" xmlUrl="http://www.eeriecuties.com/comic.rss" />
+		</outline>
+		<outline text="Ogłoszenia" title="Ogłoszenia" >
+			<outline text="Statyści" title="Statyści" type="rss" xmlUrl="http://katowice.gumtree.pl/f-SearchAdRss?Keyword=staty%C5%9Bci" />
+			<outline text="Praca.Gratka.pl" title="Praca.Gratka.pl" type="rss" xmlUrl="http://praca.gratka.pl/pracownik/rss/re_12__zr_2_1_3__miejsce_mys%C5%82owice__cmg_1.xml" />
+		</outline>
+		<outline text="IT news" title="IT news" >
+			<outline text="OSnews.pl" title="OSnews.pl" type="rss" xmlUrl="http://osnews.pl/feed/" />
+			<outline text="jakilinux.org" title="jakilinux.org" type="rss" xmlUrl="http://feeds.feedburner.com/jakilinuxorg" />
+			<outline text="IDG.pl" title="IDG.pl" type="rss" xmlUrl="http://rssout.idg.pl/iso_rss_news_30.xml" />
+			<outline text="elektroda.pl" title="elektroda.pl" type="rss" xmlUrl="http://www.elektroda.pl/rtvforum/rss.php" />
+			<outline text="Hack a Day" title="Hack a Day" type="rss" xmlUrl="http://feeds2.feedburner.com/hackaday/LgoM" />
+			<outline text="The H - Grand unified feed" title="The H - Grand unified feed" type="rss" xmlUrl="http://rss.feedsportal.com/c/32569/f/491734/index.rss" />
+			<outline text="Phoronix" title="Phoronix" type="rss" xmlUrl="http://feeds.feedburner.com/Phoronix" />
+		</outline>
+		<outline text="Fora" title="Fora" >
+			<outline text="Slackware Forum" title="Slackware Forum" type="rss" xmlUrl="http://forum.slackware.pl/feed.php?f=8" />
+		</outline>
+		<outline text="Blogi" title="Blogi" >
+			<outline text="NARF RSS News" title="NARF RSS News" type="rss" xmlUrl="http://feeds.feedburner.com/nfsec?format=xml" />
+			<outline text="django.pl" title="django.pl" type="rss" xmlUrl="http://django.pl/rss/blog/" />
+			<outline text="Planeta Jakilinux" title="Planeta Jakilinux" type="rss" xmlUrl="http://feeds.feedburner.com/PlanetaJakilinux" />
+			<outline text="/dev/Santyago" title="/dev/Santyago" type="rss" xmlUrl="http://www.santyago.pl/feed.html" />
+			<outline text="ratunku-co-robic.ownlog.com" title="ratunku-co-robic.ownlog.com" type="rss" xmlUrl="http://ratunku-co-robic.ownlog.com/index.rss" />
+			<outline text="mBank Blog" title="mBank Blog" type="rss" xmlUrl="http://www.mbank.pl/blog/feeds/feed.xml" />
+			<outline text="studentpotrafi.pl" title="studentpotrafi.pl" type="rss" xmlUrl="http://studentpotrafi.pl/rss.xml" />
+		</outline>
+		<outline text="Updates" title="Updates" >
+			<outline text="Recent Package Updates" title="Recent Package Updates" type="rss" xmlUrl="http://archlinux.org/feeds/packages/" />
+			<outline text="Latest Linux Kernel Versions" title="Latest Linux Kernel Versions" type="rss" xmlUrl="http://kernel.org/kdist/rss.xml" />
+			<outline text="Desktop Team" title="Desktop Team" type="rss" xmlUrl="http://my.opera.com/desktopteam/xml/rss/blog/" />
+			<outline text="Recent News Updates" title="Recent News Updates" type="rss" xmlUrl="http://www.archlinux.org/feeds/news/" />
+			<outline text="CyanogenMod" title="CyanogenMod" type="rss" xmlUrl="http://feeds.feedburner.com/cyanogenmod/web" />
+		</outline>
+		<outline text="News" title="News" >
+			<outline text="Kopalnia Wiedzy" title="Kopalnia Wiedzy" type="rss" xmlUrl="http://kopalniawiedzy.pl/wiadomosci.rss" />
+			<outline text="Kopalnia Wiedzy" title="Kopalnia Wiedzy" type="rss" xmlUrl="http://kopalniawiedzy.pl/artykuly.rss" />
+			<outline text="Gazeta.pl - artykuły" title="Gazeta.pl - artykuły" type="rss" xmlUrl="http://rss.gazeta.pl/pub/rss/wiadomosci.xml" />
+		</outline>
+	</body>
+</opml>

@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# TODO:
+# mocp instead of totem
+# another time option - format HH:MM  (24H)
+# logaritm question preventing from turning alarm off
+
+t=`date --date "$1" +%s`
+sudo /bin/true
+sudo rtcwake -l -t $t -m on &
+sudo sync
+sleep 5
+sudo pm-suspend
+sleep 5
+# tu wpisac co ma sie otworzyc po wybudzeniu - np. banshee albo rhytmbox
+totem ~/04\ the\ proclaimers\ -\ i\'m\ gonna\ be\ \(500\ miles\).mp3
+echo Wake up!!!!

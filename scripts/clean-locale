@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd /usr/share/locale/
+for x in *
+do 
+  read -p "Usunac lokalizacje $x? (T/n) " re 
+#	echo "> $re <"
+	if [ "$re" = "T" -o "$re" = "t" -o "$re" = "\0012" -o -z "$re" ] 
+	then
+		echo "Usuwam plik $x!"
+		rm -Rd ./$x
+	fi
+done
+

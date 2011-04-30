@@ -1,0 +1,8 @@
+#!source
+export XMODIFIERS=@im=SCIM
+export GTK_IM_MODULE="scim"
+export QT_IM_MODULE="scim"
+export XIM_PROGRAM="scim -d"
+#export LC_CTYPE="en_US.UTF-8
+scim -d
+#kadu

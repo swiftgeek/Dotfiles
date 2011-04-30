@@ -1,0 +1,3 @@
+#!/bin/bash
+sed -i 's/^state:[ \\t]play/state: pause/' /home/swiftgeek/.mpd/mpdstate 
+mpd /home/swiftgeek/.mpd/config

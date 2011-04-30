@@ -1,0 +1,32 @@
+alias sudo='sudo -i'
+alias svim='sudo vim'
+alias Napi='qnapi -c'
+alias pacman='yaourt'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+eval `dircolors -b`
+#alias netbeans='/home/swiftgeek/Apps/netbeans-6.5/bin/netbeans'
+alias pacman='yaourt'
+alias Daemons="ls /var/run/daemons"
+# This below could be promising ;)
+Pwd-sudo () {
+	cd-pwd-dir ()
+	{
+		cd $CWD exec
+		/bin/bash $@
+	}
+	CWD=`pwd`
+	echo Working dir: $CWD
+	/usr/bin/sudo -i -- 
+
+}
+#alias sudo="sudo -i --"
+alias df="df -h"
+alias du="du -h"
+alias Sudo="/usr/bin/sudo"
+alias Unrar="unrar e -y -kb"
+#alias Napi="~swiftgeek/Apps/bin/napi.py"
+alias Napi="qnapi -c"
+alias free="free -m"
+alias mpd="mpd /home/swiftgeek/.mpd/config"
+#alias mplayer="padsp mplayer"

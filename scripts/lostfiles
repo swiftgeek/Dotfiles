@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# LostFiles v0.1
+# License: GPL v2.0 http://www.gnu.org/licenses/gpl.html
+
+# Initially scripted by the Arch Linux Community
+# Mircea Bardac (dev AT mircea.bardac.net)
+# http://mircea.bardac.net/
+
+# Description:
+# Search for files which are not part of installed Arch Linux packages
+
+# Usage:
+#  lostfiles > changes
+# changes is a file containing a list of added/removed files
+
+if [ $UID != "0" ]; then
+       echo "You must run this script as root." 1>&2
+       exit
+fi
+
+cd /tmp
+echo "Loading registered files..." 1>&2
+pacman -Ql | sed -e 's|.* ||' | sort -u -o /tmp/pac-list
+
+echo "Finding local files..." 1>&2
+find / -not \( \
+      -wholename '/home/*' -prune -o \
+      -wholename '/mnt/*' -prune -o \
+      -wholename '/tmp/*' -prune -o \
+      -wholename '/sys/*' -prune -o \
+      -wholename '/var/*' -prune -o \
+      -wholename '/root/*' -prune -o \
+      -wholename '/proc/*' -prune -o \
+      -wholename '/media/*' -prune -o \
+      -wholename '/dev/*' -prune \) \
+      -and -type f > find-list-t
+echo "Finding local directories..." 1>&2
+find / -not \( \
+      -wholename '/home/*' -prune -o \
+      -wholename '/mnt/*' -prune -o \
+      -wholename '/tmp/*' -prune -o \
+      -wholename '/sys/*' -prune -o \
+      -wholename '/var/*' -prune -o \
+      -wholename '/proc/*' -prune -o \
+      -wholename '/root/*' -prune -o \
+      -wholename '/media/*' -prune -o \
+      -wholename '/dev/*' -prune \) \
+      -and -type d -exec echo "{}/" \; >>  find-list-t
+echo "Finding local links..." 1>&2
+find / -not \( \
+      -wholename '/home/*' -prune -o \
+      -wholename '/mnt/*' -prune -o \
+      -wholename '/tmp/*' -prune -o \
+      -wholename '/sys/*' -prune -o \
+      -wholename '/var/*' -prune -o \
+      -wholename '/proc/*' -prune -o \
+      -wholename '/root/*' -prune -o \
+      -wholename '/dev/*' -prune \) \
+      -and -type l >>  find-list-t
+cat find-list-t | sort -u -o find-list
+diff -U 1 pac-list find-list > diff-list
+cat diff-list | grep -v '^ .*' | grep -v '^\@.*'
+echo "Done." 1>&2
+
+# Cleanup
+rm -f diff-list find-list find-list-t pac-list

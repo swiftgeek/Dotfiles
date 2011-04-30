@@ -1,0 +1,18 @@
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=10:antialias=true
+URxvt.background:				#000000
+URxvt.foreground:				#FFFFFF
+URxvt.scrollBar:				False
+URxvt.pointerBlank:			True
+Xcursor.theme:					Obsidian
+urxvt.cursorBlink:			false
+
+!--< urxvt:url >--!
+urxvt.perl-ext-common:  default,matcher
+urxvt.matcher.button:   3
+urxvt.urlLauncher:      opera-devel 
+
+!--< xterm >--!
+xterm*background:       #000000
+xterm*foreground:       #FFFFFF
+xterm*colorBD:          #ffffff
+xterm*cursorColor:      #ffffff          
