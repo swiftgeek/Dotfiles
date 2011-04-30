@@ -1,0 +1,7 @@
+(if
+(is (window_class) "Last.fm")
+(begin
+(set_workspace 3)
+(unmaximize)
+)
+)

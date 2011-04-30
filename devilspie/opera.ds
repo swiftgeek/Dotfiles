@@ -1,0 +1,10 @@
+(if
+(is (window_class) 'Opera')
+(begin
+(undecorate)
+(set_workspace 1)
+(maximize)
+(unmaximize)
+(maximize)
+)
+)

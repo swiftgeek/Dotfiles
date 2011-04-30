@@ -1,0 +1,6 @@
+(if (is (window_name) 'Kadu')
+(begin
+(set_workspace 4)
+(maximize_vertically)
+)
+)

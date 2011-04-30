@@ -1,0 +1,8 @@
+(if
+(matches (window_name) "DesktopConsole")
+(begin
+(undecorate)
+(maximize)
+(set_workspace 2)
+)
+)

@@ -1,0 +1,6 @@
+(if (is (window_class) 'Kadu')
+(begin
+(set_workspace 4)
+(unmaximize)
+)
+)

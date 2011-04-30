@@ -1,0 +1,8 @@
+(if
+(matches (window_name) "EKG2")
+(begin
+(undecorate)
+(maximize)
+(set_workspace 4)
+)
+)
